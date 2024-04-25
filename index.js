@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 3001
 app.get("/", (req,res) => {
     res.json({
         "status": "ok",
+        "update": "ok",
     })
 }) 
 
